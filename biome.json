@@ -1,0 +1,21 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"enabled": true,
+		"attributePosition": "multiline",
+		"indentWidth": 4,
+		"lineWidth": 160,
+		"lineEnding": "lf",
+		"indentStyle": "tab",
+		"include": ["**/*.js", "**/*.ts", "**/*.json"]
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	}
+}
